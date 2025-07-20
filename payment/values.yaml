@@ -1,0 +1,11 @@
+replicaCount: 3
+
+image:
+  repository: nginx
+  tag: "1.14.2"
+  pullPolicy: IfNotPresent
+
+containerPort: 80
+
+labels:
+  app: nginx
